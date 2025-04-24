@@ -1,3 +1,27 @@
-node_modules
-dist
+# node dependencies
+node_modules/
+
+# build output
+dist/
+.vite/
+
+# local env files
 .env
+.env.*
+
+# IDE/editor stuff
+.vscode/
+*.log
+
+# OS stuff
+.DS_Store
+Thumbs.db
+
+# lockfiles (optional if you're not using package-lock consistently)
+package-lock.json
+
+# Tailwind standalone CLI (if used)
+tailwindcss.exe
+
+*.sh
+*.bat
