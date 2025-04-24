@@ -1,22 +1,14 @@
 // src/components/SecretsTable.tsx
 import { useState } from "react";
 
-const mockSecrets = [
-  {
-    id: 1,
-    name: "API Key - Stripe",
-    value: "sk_live_1234567890abcdef",
-    expiresIn: "3 days",
-  },
-  {
-    id: 2,
-    name: "DB Password - Prod",
-    value: "p@ssW0rd!123",
-    expiresIn: "Expired",
-  },
-];
+interface Secret {
+  id: number;
+  name: string;
+  value: string;
+  expiresIn: string;
+}
 
-const SecretsTable = () => {
+const SecretsTable = ({ secrets }: { secrets: Secret[] }) => {
   const [revealed, setRevealed] = useState<{ [id: number]: boolean }>({});
 
   const handleToggle = (id: number) => {
@@ -40,7 +32,7 @@ const SecretsTable = () => {
           </tr>
         </thead>
         <tbody>
-          {mockSecrets.map((secret) => (
+          {secrets.map((secret) => (
             <tr key={secret.id} className="bg-white rounded-lg shadow-sm">
               <td className="p-4 font-medium">{secret.name}</td>
               <td className="p-4">
