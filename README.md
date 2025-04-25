@@ -50,7 +50,7 @@ vaultsync-frontend/
 
 ## 📸 Preview
 ```md
-![App Screenshot](/src/assets/screenshot.png)
+![App Screenshot](.src/assets/screenshot.png)
 ```
 
 ## 📦 Build
