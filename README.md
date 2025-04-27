@@ -50,7 +50,7 @@ vaultsync-frontend/
 
 ## 📸 Preview
 ```md
-![App Screenshot](https://raw.githubusercontent.com/Roy-Cheong/vaultsync-frontend/main/src/assets/ui-preview.png)
+![App Screenshot](src/assets/ui-preview.png)
 )
 ```
 
