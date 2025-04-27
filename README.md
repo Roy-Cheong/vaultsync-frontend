@@ -49,10 +49,8 @@ vaultsync-frontend/
 ```
 
 ## 📸 Preview
-```md
 ![App Screenshot](src/assets/ui-preview.png)
-)
-```
+
 
 ## 📦 Build
 
