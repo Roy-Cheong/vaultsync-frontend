@@ -1,64 +1,75 @@
-# VaultSync 🔐
+# VaultSync – Secure Secrets Manager (Frontend)
 
-A secure and beautifully designed secret manager built with **React + TypeScript**, powered by **Vite** and styled with **TailwindCSS**.
+VaultSync is a modern, secure, and intuitive frontend for managing sensitive secrets and credentials.  
+Built with **React**, **TypeScript**, **Vite**, and **TailwindCSS** for lightning-fast performance and clean, responsive UI.
 
-## ✨ Features
+---
 
-- Add, edit, reveal, and delete secrets
-- Responsive dashboard layout
-- Expired secrets shown in red
-- Heroicons integrated for actions
-- Modal-based forms for a clean UX
+## 🚀 Features
 
-## 🛠️ Tech Stack
+- 🔐 **Create, Edit, Delete Secrets** — Full live update table
+- 👁️‍🗨️ **Reveal/Hide Secret Values** securely
+- 📋 **Copy Secret to Clipboard** in one click
+- 🕑 **Expiration Tracking** (with "Expired" status highlighting)
+- 📱 **Fully Responsive UI** (Desktop + Mobile)
+- 🎨 **Modern Design** powered by TailwindCSS
+- ⚡ **Blazing Fast** build using Vite
 
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
-- [Heroicons](https://heroicons.com/)
+---
 
-## 🚀 Getting Started
+## 🛠 Tech Stack
+
+- [React](https://react.dev/) (Frontend Framework)
+- [TypeScript](https://www.typescriptlang.org/) (Static Typing)
+- [Vite](https://vitejs.dev/) (Development & Build Tool)
+- [TailwindCSS](https://tailwindcss.com/) (UI Styling)
+- [Heroicons](https://heroicons.com/) (Beautiful Icon Set)
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-# Clone the repository
 git clone https://github.com/Roy-Cheong/vaultsync-frontend.git
-
-# Install dependencies
 cd vaultsync-frontend
-npm install
+```
 
-# Run the dev server
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Development Server
+
+```bash
 npm run dev
 ```
 
-## 🧾 Project Structure
+The app will start on [http://localhost:5173](http://localhost:5173) 🚀
 
-```bash
-vaultsync-frontend/
-├── src/
-│   └── components/layout
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-├── vite.config.ts
-├── tsconfig.json
-├── .gitignore
-└── README.md
-```
+---
 
-## 📸 Preview
-![App Screenshot](src/assets/ui-preview.png)
+## 🖥️ Screenshots
 
+| Dashboard View  |
+|:---------------:|
+| ![Dashboard Screenshot](src/assets/ui-preview.png) |
 
-## 📦 Build
+---
 
-```bash
-npm run build
-```
+## 📄 License
 
-## 🧠 Author
+This project is licensed under the [MIT License](LICENSE).
 
-Made with 💙 by [Roy Cheong]
+---
+
+## 🤝 Coming Soon
+
+- Backend API Integration (VaultSync API)
+- Real database connection for secrets storage
+- Authentication and User Management
+- Full Deployment on Render / Vercel
 ```
